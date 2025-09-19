@@ -15,9 +15,9 @@ int main(){
 
     printf("\nDigite um novo valor para a aresta do cubo (pode ser quebrado, ex: 1.33): ");
     scanf("%f", &novovalor);
-    printf("[DEBUG] Novo valor lido: %.2f\n", novovalor);
+    printf("Novo valor lido: %.2f\n", novovalor);
     Cubo_Atribuir(meucubo, novovalor);
-    printf("[DEBUG] Valor armazenado no cubo: %.2f\n", Cubo_Acessar(meucubo));
+    printf("Valor armazenado no cubo: %.2f\n", Cubo_Acessar(meucubo));
 
     printf("nova aresta do cubo: %.2f\n", Cubo_Acessar(meucubo));
     printf("nova area do cubo: %.2f\n", Cubo_Area(meucubo));
